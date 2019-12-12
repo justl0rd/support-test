@@ -12,3 +12,74 @@ body {
 	font-family: sans-serif;
 	font-size: 16px;
 }
+
+.questions h2 {
+	font-size: 30px;
+	font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.questions h3 {
+	font-size: 26px;
+	font-family:  sans-serif;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.tac {
+    text-align: center;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	font-family:  sans-serif;
+	display: block;
+	width: 100%;
+    max-width: 330px;
+    margin: 10px;
+	text-align: center;
+	padding: 20px 0;
+    background: rgb(39, 131, 2);
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+	background: rgb(46, 150, 5);
+}
+.btn:active {
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);	
+}
+
+.buttons-wrapp {
+    display: flex;
+    justify-content: center;
+}
+
+.question {
+    margin-bottom: 50px;
+    display: none;
+}
+
+.question_start {
+    display: block;
+}
+
+.question__text {
+    min-height: 50vh;
+}

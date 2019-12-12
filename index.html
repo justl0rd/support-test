@@ -5,10 +5,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Інструкція для служби підтримки</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/test.css">
     <script defer src="js/test.js"></script>
 </head>
 <body>
-    
+    <main class="main" id="main">
+        <div class="container">
+            <div class="questions">
+                <div class="question question_start" id="question-1">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Визначаємо проблему 
+                        </h2>
+                        <h3 class="tac">
+                            Інтернет є? Нема
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="9">
+                            Є інтернет
+                        </button>
+                        <button class="btn test-btn" data-next="2">
+                            Немає Інтернету
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-2">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Запитання до клієнта
+                        </h2>
+                        <h3>
+                            <b><b>№1</b></b> Включена онушка, роутер?
+                        </h3>
+                        <h3>
+                            <b>№2</b> Які індикатори світяться на онушці, роутері?
+                        </h3>
+                        <h3>
+                            <b>№3</b> Перевірити по білінгу сигнал, помилки, ip-адресу.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="3">
+                           На онушці нічого не світиться
+                        </button>
+                        <button class="btn test-btn" data-next="6">
+                            Сигнал є, всі індикатори світяться
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="question" id="question-3">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Вказівки для клієнта
+                        </h2>
+                        <h3>
+                            <b>№1</b> Сказати перевірити всі кабелі, виключити і включити обладнання.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="5">
+                           Все включено, перезавантаження не допомагає, в білінгу немає сигналу
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="question" id="question-4">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Вказівки для клієнта
+                        </h2>
+                        <h3>
+                            <b>№1</b> Сказати перевірити всі кабелі, виключити і включити обладнання.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="6">
+                           Все включено, перезавантаження не допомагає, в білінгу немає сигналу
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-5">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Відповіть клієнту
+                        </h2>
+                        <h3>
+                            <b>№1</b> Створення заявки на ремонт, передати монтажникам.
+                        </h3>
+                        <h3>
+                            <b>№2</b> В примітці описати проблему. Записати проведені дії з клієнтом.
+                        </h3>
+                        <h3>
+                            <b>№3</b> Узгодити з абонентом час і дату приїзду бригади для ремонту.
+                        </h3>
+                        <h3>
+                            <b>№4</b> Попередити клієнта про платний виїзд, якщо монтажники найдуть проблему у абонента.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="1">
+                           Повернутись на головну
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-6">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Інструкція
+                        </h2>
+                        <h3>
+                            <b>№1</b> Видалити ip адрес з білінгу.
+                        </h3>
+                        <h3>
+                            <b>№2</b> Попросити абонента перезавантажити онушку і роутер (Виключити з розетки)
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="7">
+                           Адрес отримав
+                        </button>
+                        <button class="btn test-btn" data-next="8">
+                           Адрес не отримав, при цьому є сигнали, помилок немає.
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-7">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Вказівки
+                        </h2>
+                        <h3>
+                            <b>№1</b> Перевірити пінг і втрати.
+                        </h3>
+                        <h3>
+                            <b>№2</b> Сказати клієнту перевірити сайти.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="1">
+                           Повернутись на головну
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-8">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Вказівки
+                        </h2>
+                        <h3>
+                            <b>№1</b> Створення заявки на ремонт.
+                        </h3>
+                        <h3>
+                            <b>№2</b> Скласти опис проблеми і передати його адміністратору.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="1">
+                           Повернутись на головну
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-9">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Запитання до абонента
+                        </h2>
+                        <h3>
+                            <b>№1</b> Уточнити деталі проблеми.
+                        </h3>
+                        <h3>
+                            <b>№2</b> Сайти відкриваються чи ні?
+                        </h3>
+                        <h3>
+                            <b>№3</b> Перевірити сигнал, помилки, пінг по білінгу.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="10">
+                           Сайти відкриває
+                        </button>
+                        <button class="btn test-btn" data-next="11">
+                           Сайти не відкриває
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-10">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Вказівки 
+                        </h2>
+                        <h3>
+                            <b>№1</b> Перевірити VPN. Відкрити 2ip.ua і назвати ip-адресу
+                        </h3>
+                        <h3>
+                            <b>№2</b> Перейти на сайт speedtest.com.ua і зробити тест швидкості на Київ, Воля, ОМЕГА (по кабелю)
+                        </h3>
+                        <h3>
+                            <b>№3</b> Оформлення заявки на виїзд бригади до абонента
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="1">
+                           На головну
+                        </button>
+                    </div>
+                </div>
+
+                <div class="question" id="question-11">
+                    <div class="question__text">
+                        <h2 class="tac">
+                            Інформація  
+                        </h2>
+                        <h3>
+                            <b>№1</b> Заявка на ремонт, монтажникам з описом проблеми, сигналу, помилки і тд.
+                        </h3>
+                    </div>
+                    <div class="buttons-wrapp">
+                        <button class="btn test-btn" data-next="1">
+                           На головну
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
